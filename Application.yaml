@@ -8,8 +8,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/paoloyx/argocd-config-repo
+    repoURL: https://github.com/paoloyx/argocd-code-repo
     targetRevision: master
+    path: helm
     helm:
       values: |
         image:
