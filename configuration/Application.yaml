@@ -16,7 +16,7 @@ spec:
         image:
           tag: latest
         service:
-          port: 9000
+          port: 7000
       version: v3
   destination:
     server: https://kubernetes.default.svc
