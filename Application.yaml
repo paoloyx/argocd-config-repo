@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: golive-player-web
+  name: example-app
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
@@ -10,7 +10,6 @@ spec:
   source:
     repoURL: https://github.com/paoloyx/argocd-config-repo
     targetRevision: master
-    path: helm
     helm:
       values: |
         image:
