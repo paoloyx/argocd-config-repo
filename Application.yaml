@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/paoloyx/argocd-code-repo
-    targetRevision: master
+    targetRevision: main
     path: helm
     helm:
       values: |
